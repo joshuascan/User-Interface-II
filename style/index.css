@@ -39,7 +39,7 @@ blockquote, q {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 /* General Styles */
@@ -50,7 +50,12 @@ html {
 body{
     font-size: 2rem;
     background-color: #8a9a5b;
+    
     color: #383838;
+}
+
+main {
+    background-image: linear-gradient(to bottom right, #505A35, #8a9a5b);
 }
 
 h1 {
@@ -63,6 +68,10 @@ h2 {
     font-size: 4rem;
 }
 
+h1, h2 {
+    color: rgb(211, 211, 211)
+}
+
 h3 {
     font-size: 2.5rem;
 }
@@ -73,7 +82,8 @@ header, footer {
 
 a {
     background-color: #5B8A9A;
-    padding: 1% 0;
+    padding: 0.5% 0;
+    border: 2px solid #3a5963;
     border-radius: 12px;
     text-decoration: none;
     color: rgb(211, 211, 211);
@@ -88,10 +98,13 @@ section {
 
 /* Header */
 
+header {
+    padding: 0.1% 0;
+}
+
 h1 {
     margin: 1% 2%;
     padding: 0;
-    color: rgb(211, 211, 211);
 }
 
 nav {
@@ -128,6 +141,8 @@ nav a {
 
 .right h2 {
     margin-bottom: 2%;
+    font-size: 5rem;
+    letter-spacing: 2px;
 }
 
 .right a {
@@ -166,4 +181,31 @@ nav a {
     text-align: center;
     margin-top: 4%;
     color
+}
+
+/* Footer */
+
+footer {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+footer a {
+    width: 35%;
+    padding: 2% 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+footer div h2 {
+    margin-bottom: 4%;
 }
