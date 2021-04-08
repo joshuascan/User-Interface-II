@@ -50,12 +50,12 @@ html {
 body{
     font-size: 2rem;
     background-color: #8a9a5b;
-    
+    font-family: 'Source Code Pro', monospace;
     color: #383838;
 }
 
 main {
-    background-image: linear-gradient(to bottom right, #505A35, #8a9a5b);
+    background-image: linear-gradient(to top left, #505A35, #8a9a5b);
 }
 
 h1 {
@@ -90,6 +90,12 @@ a {
     font-weight: 900;
     letter-spacing: 3px;
     font-size: 2rem;
+    transition: 0.75s;
+}
+
+a:hover {
+    box-shadow: 5px 5px 15px 2px rgb(34, 34, 34);
+    color: rgb(54, 54, 54);
 }
 
 section {
@@ -100,6 +106,8 @@ section {
 
 header {
     padding: 0.1% 0;
+    border-bottom: 4px solid #3f2539;
+    background-image: linear-gradient(#3f2539, #603956);
 }
 
 h1 {
@@ -154,7 +162,7 @@ nav a {
 }
 
 .right p {
-    margin-top: 2%;
+    margin-top: 3%;
     line-height: 1.5;
     width: 95%;
 }
@@ -162,7 +170,7 @@ nav a {
 /* Project Images */
 
 .thumbnails img {
-    border: 3px outset #8C894A;
+    border: 3px solid #505A35;
     border-radius: 2px;
 }
 .top-row {
@@ -180,7 +188,7 @@ nav a {
 .thumbnails h3 {
     text-align: center;
     margin-top: 4%;
-    color
+    font-style: italic;
 }
 
 /* Footer */
@@ -189,6 +197,8 @@ footer {
     padding: 2%;
     display: flex;
     justify-content: center;
+    border-top: 4px solid #3f2539;
+    background-image: linear-gradient(to top, #3f2539, #603956);
 }
 
 footer div {
