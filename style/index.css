@@ -48,6 +48,56 @@ html {
 }
 
 body{
-    font-size:1.6rem;
-    line-height:1.5;
+    font-size: 1.6rem;
+    background-color: #8a9a5b;
+}
+
+h1 {
+    font-size: 5rem;;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+header, footer {
+    background-color: #603956;
+}
+
+a {
+    background-color: #5B8A9A;
+    padding: 1% 0;
+    border-radius: 12px;
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+
+section {
+    padding: 4% 0;
+}
+
+/* Header */
+
+h1 {
+    margin: 1% 2%;
+    padding: 0;
+}
+
+nav {
+    margin: 1% 4%;
+    display: flex;
+}
+
+nav a {
+    margin-right: 2%;
+    min-width: 10%;
+    text-align: center;
+    text-transform: uppercase;
 }
