@@ -48,12 +48,15 @@ html {
 }
 
 body{
-    font-size: 1.6rem;
+    font-size: 2rem;
     background-color: #8a9a5b;
+    color: #383838;
 }
 
 h1 {
-    font-size: 5rem;;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 h2 {
@@ -73,14 +76,14 @@ a {
     padding: 1% 0;
     border-radius: 12px;
     text-decoration: none;
-    color: rgb(219, 219, 219);
+    color: rgb(211, 211, 211);
     font-weight: 900;
     letter-spacing: 3px;
     font-size: 2rem;
 }
 
 section {
-    padding: 4% 0;
+    padding: 2% 0;
 }
 
 /* Header */
@@ -88,6 +91,7 @@ section {
 h1 {
     margin: 1% 2%;
     padding: 0;
+    color: rgb(211, 211, 211);
 }
 
 nav {
@@ -100,4 +104,66 @@ nav a {
     min-width: 10%;
     text-align: center;
     text-transform: uppercase;
+}
+
+/* Main */
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left img {
+    border: 7px outset #8C894A;
+    border-radius: 2px;
+}
+
+.right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%
+}
+
+.right h2 {
+    margin-bottom: 2%;
+}
+
+.right a {
+    margin-right: 2%;
+    width: 35%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.right p {
+    margin-top: 2%;
+    line-height: 1.5;
+    width: 95%;
+}
+
+/* Project Images */
+
+.thumbnails img {
+    border: 3px outset #8C894A;
+    border-radius: 2px;
+}
+.top-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4%;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+
+.thumbnails h3 {
+    text-align: center;
+    margin-top: 4%;
+    color
 }
