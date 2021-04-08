@@ -80,7 +80,7 @@ header, footer {
     background-color: #603956;
 }
 
-a {
+header a, .top a, .contact-me {
     background-color: #5B8A9A;
     padding: 0.5% 0;
     border: 2px solid #3a5963;
@@ -208,14 +208,21 @@ footer div {
     width: 50%;
 }
 
-footer a {
+footer .contact-me {
     width: 35%;
     padding: 2% 0;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.8rem;
+    margin-bottom: 2%;
 }
 
 footer div h2 {
     margin-bottom: 4%;
 }
+
+.linkedin {
+    height: 32px;
+    margin-top: 1%;
+    transition: 0.75s;
+    filter: brightness(78%);
