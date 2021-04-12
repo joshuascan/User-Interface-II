@@ -39,7 +39,7 @@ blockquote, q {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 /* General Styles */
