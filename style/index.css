@@ -39,7 +39,7 @@ blockquote, q {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    /* border: 1px solid grey; */
+    border: 1px solid white;
 }
 
 /* General Styles */
@@ -124,7 +124,6 @@ nav {
 
 nav a {
     margin-right: 2%;
-    min-width: 10%;
     text-align: center;
     text-transform: uppercase;
 }
@@ -157,7 +156,6 @@ nav a {
 }
 
 .right a {
-    margin-right: 2%;
     width: 35%;
     text-align: center;
     text-transform: uppercase;
@@ -234,3 +232,17 @@ footer div h2 {
     margin-top: 1%;
     transition: 0.75s;
     filter: brightness(78%);
+}
+
+/* Responsive Styles */
+
+/* Tablet */
+
+@media(max-width:800px) {
+    header {
+        font-size: 2rem;
+    }
+}
+
+/* Phone */
+
