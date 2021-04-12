@@ -62,7 +62,7 @@ h1 {
     font-size: 5rem;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Dela Gothic One';
 }
 
 h2 {
@@ -84,7 +84,7 @@ header, footer {
 
 header a, .top a, .contact-me {
     background-color: #5B8A9A;
-    padding: 0.5% 0;
+    padding: 0.5% 2%;
     border: 2px solid #3a5963;
     border-radius: 12px;
     text-decoration: none;
@@ -124,7 +124,6 @@ nav {
 
 nav a {
     margin-right: 2%;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -133,11 +132,17 @@ nav a {
 .top {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.top div {
+    margin: 1%;
 }
 
 .left img {
     border: 7px outset #8C894A;
     border-radius: 2px;
+    
 }
 
 .right {
@@ -150,7 +155,6 @@ nav a {
 
 .right h2 {
     margin-bottom: 2%;
-    font-size: 5rem;
     letter-spacing: 2px;
     font-weight: 900;
 }
@@ -174,10 +178,14 @@ nav a {
     border: 3px solid #505A35;
     border-radius: 2px;
 }
+
+.box {
+    margin: 2%;
+}
+
 .top-row {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 4%;
 }
 
 .bottom-row {
@@ -207,16 +215,15 @@ footer div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
 }
 
 footer h2 {
-    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Dela Gothic One';
 }
 
 footer .contact-me {
-    width: 35%;
-    padding: 2% 0;
+    min-width: 35%;
+    padding: 2% 2%;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.8rem;
@@ -228,7 +235,8 @@ footer div h2 {
 }
 
 .linkedin {
-    height: 32px;
+    width: 10%;
+    text-align: center;
     margin-top: 1%;
     transition: 0.75s;
     filter: brightness(78%);
@@ -239,8 +247,20 @@ footer div h2 {
 /* Tablet */
 
 @media(max-width:800px) {
-    header {
+    .top {
+        flex-direction: column;
+    }
+
+    .right {
+        width: 80%;
+    }
+
+    .box h3 {
         font-size: 2rem;
+    }
+
+    footer h2 {
+        font-size: 3rem;
     }
 }
 
