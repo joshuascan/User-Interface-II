@@ -307,11 +307,12 @@ footer div h2 {
     }
 
     .right p {
-        margin: 2% auto;
+        margin: 3% auto;
     }
 
     .box {
         max-width: 35%;
+        margin-bottom: 8%;
     }
 
     .top-row {
