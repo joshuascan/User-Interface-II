@@ -127,6 +127,7 @@ nav {
 
 nav a {
     margin-right: 2%;
+    margin-bottom: 0.5%;
     text-transform: uppercase;
 }
 
@@ -285,6 +286,7 @@ footer div h2 {
         justify-content: center;
         align-items: center;
         width: 50%;
+        margin-bottom: 1%;
     }
 
     nav a {
